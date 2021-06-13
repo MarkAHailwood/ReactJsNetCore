@@ -41,6 +41,16 @@ namespace ReactDemo.Controllers
             return Json(_comments);
         }
 
+        [Route("comments/new")]
+        [HttpPost]
+        public ActionResult AddComment(CommentModel comment)
+        {
+            //create fake id
+            comment.Id = _comments.Count + 1;
+            _comments.Add(comment);
+            return Content("success");
+        }
+
         [ResponseCache(Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Index()
         {
