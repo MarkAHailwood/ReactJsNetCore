@@ -1,0 +1,55 @@
+﻿@{
+    Layout = null;
+}
+<html>
+<head>
+    <title>My Game</title>
+    <h1>Hello and welcome to my react based tictactoe</h1>
+</head>
+<body>
+
+    <div id="tictac"></div>
+    <div id="errors" style="
+                        background: #c00;
+                        color: #fff;
+                        display: none;
+                        margin: -20px -20px 20px;
+                        padding: 20px;
+                        white-space: pre-wrap;
+                    "></div>
+    <div id="tictac"></div>
+    <script>
+        window.addEventListener('mousedown', function (e) {
+            document.body.classList.add('mouse-navigation');
+            document.body.classList.remove('kbd-navigation');
+        });
+        window.addEventListener('keydown', function (e) {
+            if (e.keyCode === 9) {
+                document.body.classList.add('kbd-navigation');
+                document.body.classList.remove('mouse-navigation');
+            }
+        });
+        window.addEventListener('click', function (e) {
+            if (e.target.tagName === 'A' && e.target.getAttribute('href') === '#') {
+                e.preventDefault();
+            }
+        });
+        window.onerror = function (message, source, line, col, error) {
+            var text = error ? error.stack || error : message + ' (at ' + source + ':' + line + ':' + col + ')';
+            errors.textContent += text + '\n';
+            errors.style.display = '';
+        };
+        console.error = (function (old) {
+            return function error() {
+                errors.textContent += Array.prototype.slice.call(arguments).join(' ') + '\n';
+                errors.style.display = '';
+                old.apply(this, arguments);
+            }
+        })(console.error);
+    </script>
+
+    <script crossorigin src="https://cdnjs.cloudflare.com/ajax/libs/react/16.13.0/umd/react.development.js"></script>
+    <script crossorigin src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/16.13.0/umd/react-dom.development.js"></script>
+    <script src="@Url.Content("~/js/tester-component.jsx")"></script>
+</body>
+</html>
