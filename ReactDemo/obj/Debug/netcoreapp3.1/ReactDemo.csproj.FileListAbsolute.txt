@@ -31,7 +31,6 @@ C:\Users\MarkHailwood\source\repos\ReactDemo\ReactDemo\bin\Debug\netcoreapp3.1\r
 C:\Users\MarkHailwood\source\repos\ReactDemo\ReactDemo\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Security.AccessControl.dll
 C:\Users\MarkHailwood\source\repos\ReactDemo\ReactDemo\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
 C:\Users\MarkHailwood\source\repos\ReactDemo\ReactDemo\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
-C:\Users\MarkHailwood\source\repos\ReactDemo\ReactDemo\obj\Debug\netcoreapp3.1\ReactDemo.csprojAssemblyReference.cache
 C:\Users\MarkHailwood\source\repos\ReactDemo\ReactDemo\obj\Debug\netcoreapp3.1\ReactDemo.AssemblyInfoInputs.cache
 C:\Users\MarkHailwood\source\repos\ReactDemo\ReactDemo\obj\Debug\netcoreapp3.1\ReactDemo.AssemblyInfo.cs
 C:\Users\MarkHailwood\source\repos\ReactDemo\ReactDemo\obj\Debug\netcoreapp3.1\ReactDemo.csproj.CoreCompileInputs.cache
@@ -56,3 +55,4 @@ C:\Users\MarkHailwood\source\repos\ReactDemo\ReactDemo\obj\Debug\netcoreapp3.1\R
 C:\Users\MarkHailwood\source\repos\ReactDemo\ReactDemo\obj\Debug\netcoreapp3.1\ReactDemo.pdb
 C:\Users\MarkHailwood\source\repos\ReactDemo\ReactDemo\obj\Debug\netcoreapp3.1\ReactDemo.genruntimeconfig.cache
 C:\Users\MarkHailwood\source\repos\ReactDemo\ReactDemo\obj\Debug\netcoreapp3.1\Razor\Views\TicTac\TicTacToe.cshtml.g.cs
+C:\Users\MarkHailwood\source\repos\ReactDemo\ReactDemo\obj\Debug\netcoreapp3.1\ReactDemo.csproj.AssemblyReference.cache
